@@ -1,0 +1,27 @@
+  @keyframes pulse {
+    0% {
+      width: 10px;
+      height: 10px;
+      margin-left: -5px;
+      margin-top: -5px;
+      opacity: 1;
+    }
+
+    100% {
+      width: 150px;
+      height: 150px;
+      margin-left: -75px;
+      margin-top: -75px;
+      opacity: 0;
+    }
+  }
+  @keyframes slide-top {
+  0% {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
